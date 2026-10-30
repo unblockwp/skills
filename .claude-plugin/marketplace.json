@@ -19,6 +19,7 @@
         "./skills/unblock-build-page",
         "./skills/unblock-content",
         "./skills/unblock-dynamic-data",
+        "./skills/unblock-from-figma",
         "./skills/unblock-audit-accessibility",
         "./skills/unblock-audit-performance",
         "./skills/unblock-audit-seo",

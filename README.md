@@ -18,6 +18,7 @@ and adds the method on top.
 | [`unblock-build-page`](skills/unblock-build-page/SKILL.md) | Plans a page from its purpose, writes real copy, composes it in one pass on the design system, reviews it before writing, then checks it |
 | [`unblock-content`](skills/unblock-content/SKILL.md) | Writes and rewrites a page's text in the site's voice: headlines, body, buttons, forms, alt text, title and excerpt |
 | [`unblock-dynamic-data`](skills/unblock-dynamic-data/SKILL.md) | Connects pages and templates to WordPress data: post lists, custom fields, terms, pagination, empty states, blog and archive templates |
+| [`unblock-from-figma`](skills/unblock-from-figma/SKILL.md) | Turns a Figma design into responsive Unblock sections, its variables into tokens, its images into the media library |
 
 **Check**
 

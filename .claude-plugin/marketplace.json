@@ -1,0 +1,29 @@
+{
+  "name": "unblock",
+  "owner": {
+    "name": "Unblock"
+  },
+  "metadata": {
+    "description": "Skills for AI agents that build WordPress sites with Unblock over MCP",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "unblock-skills",
+      "description": "Plan, design, build, write, connect data and audit WordPress sites built with Unblock",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/unblock-site-brief",
+        "./skills/unblock-design-system",
+        "./skills/unblock-build-page",
+        "./skills/unblock-content",
+        "./skills/unblock-dynamic-data",
+        "./skills/unblock-audit-accessibility",
+        "./skills/unblock-audit-performance",
+        "./skills/unblock-audit-seo",
+        "./skills/unblock-audit-code"
+      ]
+    }
+  ]
+}

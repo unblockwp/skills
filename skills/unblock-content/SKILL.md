@@ -150,9 +150,10 @@ marker only with a fact the user or the brief gives.
 - The text of a block of another plugin cannot be changed in place. Propose to replace that block
   with Unblock elements (see step 2).
 - With `post_id`, pass the `content_hash` each write returns to the next one.
-- A write to a published or private page, or to a template, is refused until you pass `live: true`,
-  once the user agreed. Before a redesign, offer a draft copy (`unblock/copy-post`) or an editor
-  session the user opens on the page.
+- A write to a published or private page, or to a template, is refused without `live: true`: pass
+  it when the user asked for that change or agreed to it, never for one they did not ask for. Before
+  a redesign, offer a draft copy (`unblock/copy-post`) or an editor session the user opens on the
+  page.
 
 ## 5. Check
 

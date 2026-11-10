@@ -49,9 +49,10 @@ choices when it has one, after explaining the options in text. Ask open question
   the first write, `template` (what the page's template prints around the content) and `css` (the
   site's CSS): build on them without reading the page or the CSS again.
 - **Existing page:** find it with `unblock-list-posts`, then read it with `unblock-get-context`.
-  A write to a published or private page, or to a template, is refused until you pass `live: true`,
-  once the user agreed. Before a redesign, offer a draft copy (`unblock/copy-post`) or an editor
-  session the user opens on the page.
+  A write to a published or private page, or to a template, is refused without `live: true`: pass
+  it when the user asked for that change or agreed to it, never for one they did not ask for. Before
+  a redesign, offer a draft copy (`unblock/copy-post`) or an editor session the user opens on the
+  page.
 - **Who holds the `h1`:** `template.h1`, from `unblock-create-post` for a new page, or from
   `unblock-get-context` with `template: true` the first time you read an existing one. When the
   template prints the post title as the `h1`, the content starts at `h2` and the post title must be
@@ -253,4 +254,4 @@ End with:
 - What you could not check, and what needs a person (reading with a screen reader, real content,
   the final images).
 
-Publish only when the user asks.
+Publish only when the user asks, with `live: true`: their asking is the agreement.

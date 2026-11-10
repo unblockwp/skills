@@ -54,7 +54,8 @@ choices when it has one, after explaining the options in text. Ask open question
 - **A page** shows a selection: the three latest posts on the home page, the team, the next events.
   Write a loop on a query: `get_posts({...})`.
 - **A template** shows whatever WordPress is displaying. Work on it with `template_id`; a write to it
-  shows on the site at once, so pass `live: true` only once the user agreed:
+  shows on the site at once, so pass `live: true` when the user asked for that change or agreed to
+  it:
   - The blog, archives and search (`home`, `archive`, `category`, `tag`, `search`, the archive of a
     post type): loop the main query with `{% for item in posts %}`. A `get_posts` there would ignore
     the category or the page of results the visitor asked for.

@@ -192,10 +192,14 @@ respect (logo, brand colors, fonts).
 ## 7. Confirm
 
 Show a summary that fits on one screen: the goal, the audiences, the pages with their primary action,
-the setup steps left to the user, the assumptions and the open questions. Ask the user to confirm or
-correct it, and update the files until they confirm. Their confirmation also approves the setup the
-brief lists (the plugins to install, the pages to trash) and the header and footer built with the
-first page, which show on the site at once, as a template has no draft: do not ask for each again.
+the setup steps left to the user, the assumptions and the open questions. Then ask, in one call of
+your client's tool for questions, the confirmation and every choice still open, each with its
+options: the SEO plugin, the imagery, whether to look for references. The user answers them all at
+once; update the files until they confirm.
+
+Their confirmation also approves the setup the brief lists (the plugins to install, the pages to
+trash) and the header and footer built with the first page, which show on the site at once, as a
+template has no draft: do not ask for each again, and pass `live: true` where a tool asks for it.
 
 This is the first of three stops in a new site: the brief, the art direction, the draft of the first
 page. Between them, decide with the defaults the skills give and say what you chose.

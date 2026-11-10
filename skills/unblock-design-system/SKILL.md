@@ -284,4 +284,5 @@ End with:
 - Each contrast pair with its ratio.
 - The draft to look at, and what you could not check.
 
-Then the pages: `unblock-build-page` composes the first one on these tokens.
+Then go on to the first page with `unblock-build-page`, without waiting for the user: on a new site,
+the next stop is its draft.
